@@ -9,14 +9,14 @@ from profile import sanythomas
 class Github():
 
   def __init__(self):
-    self.first_name = &#39;Sany&#39;
-    self.last_name  = &#39;Thomas&#39;
-    self.interest = {1: &quot;Backend Development&quot;, 2: &quot;Speaker&quot;, 3: &quot;Coding, of course!&quot;}
+    self.first_name = 'Sany'
+    self.last_name  = 'Thomas'
+    self.interest = {1: "Backend Development", 2: "Speaker", 3: "Coding, of course!"}
  
   def interests(self):
     return(self.interest.values())
  
-if __name__ == &quot;__main__&quot;:
+if __name__ == "__main__":
   sany = Github()
   print(sany.interests())
 ```
